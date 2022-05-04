@@ -1,0 +1,22 @@
+int p1_id=111, p2_id=222, p3_id=111;
+  float p1_price=111.49, p2_price=222.99, p3_price=334.49,avg;
+  char p1_tax='Y', p2_tax='N', p3_tax='N';
+
+printf("Product Information\n");
+printf("===================\n");
+
+printf("Product -1\(ID:%d\)\n",p1_id);
+printf(" Taxed: %c\n",p1_tax);
+printf(" Price: $%.2f\n",p1_price);
+
+printf("\nProduct -1\(ID:%d\)\n",p2_id);
+printf(" Taxed: %c\n",p2_tax);
+printf(" Price: $%.2f\n",p2_price);
+
+printf("\nProduct -1\(ID:%d\)\n",p3_id);
+printf(" Taxed: %c\n",p3_tax);
+printf(" Price: $%.2f\n",p3_price);
+
+avg=(p1_price+p2_price+p3_price)/3; 
+
+printf("\nThe average of all prices is: $%.4f\n",avg);
