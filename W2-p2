@@ -1,0 +1,39 @@
+printf("Take a Break - Coffee Shop\n");
+    printf("==========================\n");
+    printf("\nEnter the coffee product information being sold today...\n");
+    
+printf("COFFEE-1...\n");
+    printf("Type ([L]ight,[B]lend): ");
+    scanf("%c",&type);
+    printf("\nGrind size ([C]ourse,[F]ine): ");
+    scanf("%c",&size);
+    printf("\nBag weight (g): ");
+    scanf("%d",&bag_wg);
+    printf("\nBest served with cream ([Y]es,[N]o): ");
+    scanf("%c",&cream);
+    printf("\nIdeal serving temperature (Celsius): ");
+    scanf("%f",&temp);
+    
+    printf("COFFEE-2...\n");
+    printf("Type ([L]ight,[B]lend): ");
+    scanf("%c",&type);
+    printf("\nGrind size ([C]ourse,[F]ine): ");
+    scanf("%c",&size);
+    printf("\nBag weight (g): ");
+    scanf("%d",&bag_wg);
+    printf("\nBest served with cream ([Y]es,[N]o): ");
+    scanf("%c",&cream);
+    printf("\nIdeal serving temperature (Celsius): ");
+    scanf("%f",&temp);
+    
+    printf("COFFEE-3...\n");
+    printf("Type ([L]ight,[B]lend): ");
+    scanf("%c",&type);
+    printf("\nGrind size ([C]ourse,[F]ine): ");
+    scanf("%c",&size);
+    printf("\nBag weight (g): ");
+    scanf("%d",&bag_wg);
+    printf("\nBest served with cream ([Y]es,[N]o): ");
+    scanf("%c",&cream);
+    printf("\nIdeal serving temperature (Celsius): ");
+    scanf("%f",&temp);
