@@ -9,15 +9,15 @@ int p1_id=111, p2_id=222, p3_id=111;
 printf("Product Information\n");
 printf("===================\n");
 
-printf("Product -1\(ID:%d\)\n",p1_id);
+printf("Product -1(ID:%d)\n",p1_id);
 printf(" Taxed: %c\n",p1_tax);
 printf(" Price: $%.2f\n",p1_price);
 
-printf("\nProduct -1\(ID:%d\)\n",p2_id);
+printf("\nProduct -1(ID:%d)\n",p2_id);
 printf(" Taxed: %c\n",p2_tax);
 printf(" Price: $%.2f\n",p2_price);
 
-printf("\nProduct -1\(ID:%d\)\n",p3_id);
+printf("\nProduct -1(ID:%d)\n",p3_id);
 printf(" Taxed: %c\n",p3_tax);
 printf(" Price: $%.2f\n",p3_price);
 
